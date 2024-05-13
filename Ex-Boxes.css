@@ -7,59 +7,65 @@ body {
 text-align: center;
 text-align: left;
 margin: auto;
-width: 70%;
-padding: 100px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
 }
 
 .emoji {
 height: 20px;
-width: 20px;
-margin: 120px;
+padding-bottom: 75px;
+padding-top: 75px;
 }
 
-.flex {
+.portfolio {
   display: flex;
+  gap: 100px;
+  margin-top: 75px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 11px
 }
 
-.box1 {
-  margin: 100px;
-  width: 400px;
-  height: 400px;
-  background-color: aquamarine;
+.portfolio img {
+  max-width: 100%;
+  height: auto;
 }
+
+.coluna-esquerda {
+  background-color: white;
+
+}
+
+.coluna-direita {
+  background-color: white;
+}
+
+.black {
+  border: 40px solid black;
+}
+
+.grey {
+  border: 40px solid grey;
+}
+
+.salmon {
+  border: 40px solid salmon;
+}
+
+.lightblue {
+  border: 40px solid lightblue;
+}
+
+.lightgreen {
+  border: 40px solid lightgreen;
+}
+
+.lightpink {
+  border: 40px solid lightpink;
+}
+
+
 
 .container {
-  max-width: 400px;
-  max-height: 400px;
-  margin: 0;
-  border: 1px solid grey;
+  max-width: 75%;
+  margin: 0 auto;
 }
-
-.container2 {
-  max-width: 400px;
-  max-height: 400px;
-  margin: 0;
-  border: 1px solid grey;
-}
-
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-item {
-  flex: auto;
-}
-
-.raw-item {
-  width: 5rem;
-}
-
-div {
-  border: 1px solid #f00;
-  padding: 1rem;
-}
-
-
-
