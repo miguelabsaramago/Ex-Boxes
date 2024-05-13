@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.titulo {
+text-align: center;
+text-align: left;
+margin: auto;
+width: 70%;
+padding: 100px;
+}
+
+.emoji {
+height: 20px;
+width: 20px;
+margin: 120px;
+}
+
+.flex {
+  display: flex;
+}
+
+.box1 {
+  margin: 100px;
+  width: 400px;
+  height: 400px;
+  background-color: aquamarine;
+}
+
+.container {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0;
+  border: 1px solid grey;
+}
+
+.container2 {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0;
+  border: 1px solid grey;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  flex: auto;
+}
+
+.raw-item {
+  width: 5rem;
+}
+
+div {
+  border: 1px solid #f00;
+  padding: 1rem;
+}
+
+
+
